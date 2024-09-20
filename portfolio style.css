@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(14, 14, 50);
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 80px;
+    background-color: rgb(14, 14, 40);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+    color: aqua;
+    font-size: 20px;
+    }
+.left{
+    font-size: 50px;
+}
+.firstsection{
+    display: flex;
+    justify-content:space-around ;
+    margin: 28px 0;
+    align-items: center;
+}
+.firstsection div{
+    margin: 8px;
+    
+}
+.leftsection{
+    font-size: 30px;
+
+}
+.purple{
+    color: blueviolet;
+}
+
+.secondsection{
+    margin: 20px;
+}
+.secondsection p{
+    padding: 20px;
+    border: 4px;
+}
+/*.secondsection h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.secondsection p{
+    padding:5px ;
+    font-size: 20px;
+}*/
+.thirdsection{
+    margin: 20px;
+}
+.thirdsection ul{
+    padding: 20px;
+    border: 4px;
+}
+.fourthsection{
+    margin: 20px;
+}
+.fourthsection p{
+    padding:20px ;
+    border:4px ;
+}
+.fourthsection a{
+    color: aquamarine;
+}
+.fithsection{
+    margin: 20px;
+}
+.fithsection p{
+    padding: 20px;
+}
+.fithsection a{
+    padding: 10px;
+    border: 6px;
+    color: rgb(48, 199, 199);
+}
+footer{
+   background-color: rgb(24, 24, 80); ;
+    height: 60px;
+
+}
+.footer{
+    padding: 20px;
+}
